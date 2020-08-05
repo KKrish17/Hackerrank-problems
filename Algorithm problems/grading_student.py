@@ -15,13 +15,10 @@ import sys
 
 def gradingStudents(grades):
     for i in range(len(grades)):
-        if grades[i]%5==0 or grades[i]<38:
-            print(grades[i])
-        elif grades[i]%5!=0 and ((grades[i]+(5-grades[i]%5))-grades[i])==3:
-            print(grades[i])
-        else:
-            grades[i]=grades[i]+(5-grades[i]%5)
-            print(grades[i])
+        if grades[i] >= 38:
+            if grades[i] % 5 > 2:
+                grades[i] += 5 - (grades[i] % 5)
+        print(grades[i])
 
 
 if __name__ == '__main__':
