@@ -1,11 +1,10 @@
-``` 
-print 'HackerRank'.center(width,'-')
------HackerRank-----
-print 'HackerRank'.ljust(width,'-')
-HackerRank----------  
-print 'HackerRank'.rjust(width,'-')
-----------HackerRank
-```
+
+#print 'HackerRank'.center(width,'-')
+#-----HackerRank-----
+#print 'HackerRank'.ljust(width,'-')
+#HackerRank----------  
+#print 'HackerRank'.rjust(width,'-')
+#----------HackerRank
 
 #Replace all ______ with rjust, ljust or center. 
 
