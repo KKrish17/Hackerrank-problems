@@ -1,4 +1,4 @@
-i=int(input())
+i=input()
 n=int(input())
 a=[]
 temp=0
@@ -10,3 +10,4 @@ for k in range(len(a)):
     if x<a[k].count('1'):
         x=a[k].count('1')
 print(x)
+    
